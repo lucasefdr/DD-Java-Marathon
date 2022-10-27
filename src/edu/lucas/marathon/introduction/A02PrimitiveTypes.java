@@ -3,22 +3,25 @@ package edu.lucas.marathon.introduction;
 public class A02PrimitiveTypes {
 
     public static void main(String[] args) {
-        // int, long, double, float, char, byte, short, boolean
-        int vInt = 24; // 4 bytes
-        long vLong = 43243212; // 8 bytes
-        double vDouble = 13124.4324; // 8 bytes
-        float vFloat = 3123.55F; // 4 bytes
-        byte vByte = 123; // 1 byte
-        short vShort = 21334; // 2 bytes
-        boolean vBoolean = true; // 1 bit
-        char vChar = '\u0041'; // 2 bytes - UNICODE
+        // Tipos primitivos: int, double, float, char, byte, short, long, boolean
+        byte ageByte = 127; // 8 bits: -128 até 127
+        int integer = 129; // 16 bits: -32768 até 32767
+        short ageShort = 32767; // 32 bits: -2^31 até 2^31 - 1
+        long bigNumber = 312321441122L; // 64 bits: -2^63 até 2^63 - 1
+        double salaryDouble = 12000;
+        float salaryFloat = 12000F;
+        boolean isTrueOrFalse = true; // true or false
+        char character = 'X'; // ASCII values
+        char characterUni = '\u31f2';
 
-        // casting long to int
-        int vCastingLong = (int) 9999999999L;
-        System.out.println(vCastingLong); // cortando bits
+        System.out.println(characterUni);
 
-        // String -> reference type (tipo de referência)
-        String vString = "a colorful mind...";
-        System.out.println(vString);
+        // Cast explícito
+        int explInt = (int) 10000000000L; // Irá cortar os bits
+        System.out.println(explInt);
+
+        // String
+        String frase = "Never forget it";
+        System.out.println(frase);
     }
 }
