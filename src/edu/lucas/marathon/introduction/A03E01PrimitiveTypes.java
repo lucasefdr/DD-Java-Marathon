@@ -1,6 +1,6 @@
 package edu.lucas.marathon.introduction;
 
-public class A03Ex01PrimitiveTypes {
+public class A03E01PrimitiveTypes {
     public static void main(String[] args) {
         String name = "Lucas", address = "Ribeirão Preto - SP", date = "20/12/2022";
         double salary = 1755.50D;
