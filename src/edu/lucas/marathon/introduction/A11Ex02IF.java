@@ -2,7 +2,7 @@ package edu.lucas.marathon.introduction;
 
 import java.util.Scanner;
 
-public class A11E02IF {
+public class A11Ex02IF {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Digite o seu salário:");

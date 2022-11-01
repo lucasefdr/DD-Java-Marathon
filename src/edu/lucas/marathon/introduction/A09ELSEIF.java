@@ -2,7 +2,7 @@ package edu.lucas.marathon.introduction;
 
 import java.util.Scanner;
 
-public class A09ConditionalStructuresELSEIF {
+public class A09ELSEIF {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Digite a sua idade:");

@@ -2,7 +2,7 @@ package edu.lucas.marathon.introduction;
 
 import java.util.Scanner;
 
-public class A12ConditionalStructuresSwitch {
+public class A12SwitchCase {
     public static void main(String[] args) {
         // switch case
         // imprima o dia da semana, considerando 1 como Domingo

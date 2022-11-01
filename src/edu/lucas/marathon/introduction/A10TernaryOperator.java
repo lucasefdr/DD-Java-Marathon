@@ -1,6 +1,6 @@
 package edu.lucas.marathon.introduction;
 
-public class A10ConditionalStructuresTernary {
+public class A10TernaryOperator {
     public static void main(String[] args) {
         // Operador ternário -> (condicao) ? true : false;
         var salary = 6000.0D;
