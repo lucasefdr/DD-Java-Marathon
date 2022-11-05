@@ -2,7 +2,7 @@ package edu.lucas.marathon.introduction;
 
 import java.util.Scanner;
 
-public class A08IF {
+public class A08If {
     public static void main(String[] args) {
         // Estrutura básica
         if (true) {
