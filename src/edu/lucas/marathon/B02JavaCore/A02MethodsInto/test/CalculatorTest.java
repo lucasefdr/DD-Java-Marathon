@@ -9,7 +9,8 @@ public class CalculatorTest {
         double numberOne = 10;
         double numberTwo = 60;
 
-        double sum = calculator.sumTwoNumbers(numberOne, numberTwo);
+        // passando parâmetros para o nosso método
+        double sum = calculator.sum(numberOne, numberTwo);
         System.out.println(sum);
     }
 }
