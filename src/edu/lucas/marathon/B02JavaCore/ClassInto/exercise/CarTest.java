@@ -21,5 +21,12 @@ public class CarTest {
         System.out.println(carTwo.name);
         System.out.println(carTwo.model);
         System.out.println(carTwo.year);
+
+        System.out.println();
+
+        // Referenciando outro objeto da mesma classe
+        carOne = carTwo;
+        System.out.println(carOne.name);
+        System.out.println(carTwo.name);
     }
 }
