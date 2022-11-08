@@ -13,7 +13,16 @@ public class CalculatorTest {
         double sum = calculator.sum(numberOne, numberTwo);
         System.out.println(sum);
 
+        // Testando excpetion
         double division = calculator.division(10, 2);
         System.out.println(division);
+
+        System.out.println();
+
+        // Passagem de argumentos de tipo primitivo -> é passado uma cópia da variável passada
+        calculator.modifyTwoNumbers(numberOne, numberTwo);
+        System.out.println();
+        System.out.println(numberOne);
+        System.out.println(numberTwo);
     }
 }

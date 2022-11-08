@@ -23,4 +23,12 @@ public class Calculator {
 
         throw new Exception("Can't divide by 0");
     }
+
+    public void modifyTwoNumbers(double numberOne, double numberTwo) {
+        numberOne = 99;
+        numberTwo = 33;
+
+        System.out.println(numberOne);
+        System.out.println(numberTwo);
+    }
 }
