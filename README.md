@@ -9,11 +9,11 @@ Project created to study the Java language.
 - [x]  Packages
 - [x]  Comments
 - [x]  Primitive and datatypes
-- [x]  String - Introduction
+- [x]  String: Introduction
 - [x]  Operators: arithmetic, relational, logical, assignment
 - [x]  Conditional structures: if, else if, switch case, ternary operator
 - [x]  Repetition structures: while, do while, for, break, continue
-- [x]  Array - Introduction
+- [x]  Array: Introduction
 
 
 ### Object-Oriented Programming
