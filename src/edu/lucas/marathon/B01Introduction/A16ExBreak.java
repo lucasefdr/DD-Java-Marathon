@@ -1,4 +1,4 @@
-package edu.lucas.marathon.introduction;
+package edu.lucas.marathon.B01Introduction;
 
 public class A16ExBreak {
     // Dado o valor de um carro, descubra em quantas vezes ele pode ser parcelado

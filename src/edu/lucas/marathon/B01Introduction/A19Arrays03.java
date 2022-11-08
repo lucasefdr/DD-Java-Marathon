@@ -1,4 +1,4 @@
-package edu.lucas.marathon.introduction;
+package edu.lucas.marathon.B01Introduction;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package edu.lucas.marathon.introduction;
+package edu.lucas.marathon.B01Introduction;
 
 public class A15ExFor {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package edu.lucas.marathon.introduction;
+package edu.lucas.marathon.B01Introduction;
 
 public class A14WhileDoWhileFor {
     public static void main(String[] args) {
