@@ -19,7 +19,8 @@ public class Calculator {
     }
 
     public double division(double numberOne, double numberTwo) throws Exception {
-        if (numberTwo == 0) throw new Exception("Can't divide by 0");
-        return numberOne * numberTwo;
+        if (numberTwo != 0) return numberOne / numberTwo;
+
+        throw new Exception("Can't divide by 0");
     }
 }
