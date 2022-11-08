@@ -1,4 +1,4 @@
-package edu.lucas.marathon.B02JavaCore.ClassInto.domain;
+package edu.lucas.marathon.B02JavaCore.A01ClassInto.domain;
 
 public class Teacher {
     public String name;

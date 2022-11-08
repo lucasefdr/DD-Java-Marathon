@@ -1,6 +1,6 @@
-package edu.lucas.marathon.B02JavaCore.ClassInto.test;
+package edu.lucas.marathon.B02JavaCore.A01ClassInto.test;
 
-import edu.lucas.marathon.B02JavaCore.ClassInto.domain.Teacher;
+import edu.lucas.marathon.B02JavaCore.A01ClassInto.domain.Teacher;
 
 public class TeacherTest {
     public static void main(String[] args) {

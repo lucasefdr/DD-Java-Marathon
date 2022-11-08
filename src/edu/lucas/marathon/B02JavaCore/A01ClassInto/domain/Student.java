@@ -1,4 +1,4 @@
-package edu.lucas.marathon.B02JavaCore.ClassInto.domain;
+package edu.lucas.marathon.B02JavaCore.A01ClassInto.domain;
 
 /**
  * Uma <b>classe</b> é um <b>template</b> (uma forma) que irá dar <b>formato</b> aos objetos instanciados a partir dela.

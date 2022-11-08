@@ -20,4 +20,4 @@ Project created to study the Java language.
 - [x]  Class and objects
 - [x]  Cohesion
 - [x]  Object reference in memory
-- [ ]  Properties and Methods
+- [ ]  Attributes and methods
