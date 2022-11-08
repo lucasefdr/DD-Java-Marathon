@@ -1,0 +1,22 @@
+package edu.lucas.marathon.introduction;
+
+public class A18Arrays02 {
+    /**
+     * Inicialização e iteração de arrays
+     */
+    public static void main(String[] args) {
+        // outra maneira de inicializar arrays
+        String[] names1 = new String[]{"Lucas", "Eduardo", "Renata", "Lara"};
+
+        // outra maneira de inicializar arrays
+        String[] names2 = {"Lucas", "Eduardo", "Renata", "Lara"};
+
+        for (int i = 0; i < names1.length; i++) {
+            System.out.println("Name: " + names1[i]);
+        }
+
+        for (String name : names2) {
+            System.out.println("Name: " + name);
+        }
+    }
+}

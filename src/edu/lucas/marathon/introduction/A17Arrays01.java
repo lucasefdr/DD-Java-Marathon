@@ -14,7 +14,7 @@ public class A17Arrays01 {
         // referência do objeto em memória
         System.out.println(ages);
 
-        // array vazio com o toString
+        // array vazio
         System.out.println(Arrays.toString(ages));
 
         int age1 = 14;
