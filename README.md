@@ -18,5 +18,6 @@ Project created to study the Java language.
 
 ### Object-Oriented Programming
 - [x]  Class and objects
-- [x]  Coersion
+- [x]  Cohesion
 - [x]  Object reference in memory
+- [ ]  Properties and Methods
