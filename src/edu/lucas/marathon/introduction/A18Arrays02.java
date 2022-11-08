@@ -11,10 +11,12 @@ public class A18Arrays02 {
         // outra maneira de inicializar arrays
         String[] names2 = {"Lucas", "Eduardo", "Renata", "Lara"};
 
+        // for index
         for (int i = 0; i < names1.length; i++) {
             System.out.println("Name: " + names1[i]);
         }
 
+        // foreach
         for (String name : names2) {
             System.out.println("Name: " + name);
         }
