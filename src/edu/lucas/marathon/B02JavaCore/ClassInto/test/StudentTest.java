@@ -7,8 +7,8 @@ public class StudentTest {
 
         Student studentOne;
         studentOne = new Student();
-        studentOne.name = "Lucas";
-        studentOne.age = 24;
+        studentOne.name = "Eduardo";
+        studentOne.age = 49;
         studentOne.gender = 'M';
 
         // instanciando um objeto a partir da classe pessoa (variável de referência)
