@@ -8,7 +8,7 @@ public class StudentPrinter {
      * Como o parâmetro é passado por referência, podemos alterar o objeto dentro do nosso método
      */
     public void printStudent(Student student) {
-        student.name = "Name change by printStudent";
+        // student.name = "Name change by printStudent";
 
         System.out.println("Name: " + student.name);
         System.out.println("Age: " + student.age);
