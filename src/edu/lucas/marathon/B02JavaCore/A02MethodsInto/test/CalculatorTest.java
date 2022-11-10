@@ -24,5 +24,12 @@ public class CalculatorTest {
         System.out.println();
         System.out.println(numberOne);
         System.out.println(numberTwo);
+
+        System.out.println();
+
+        // Função de soma com varargs
+        double sumVarArgs = calculator.sumArrayVarArgs(1, 2, 3, 4, 5, 6);
+        System.out.println("varargs");
+        System.out.println(sumVarArgs);
     }
 }

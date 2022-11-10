@@ -31,4 +31,14 @@ public class Calculator {
         System.out.println(numberOne);
         System.out.println(numberTwo);
     }
+
+    // varargs -> type... variável
+    public double sumArrayVarArgs(int... numbers) {
+        double sum = 0;
+        for (int number : numbers) {
+            sum += number;
+        }
+        return sum;
+    }
+
 }
