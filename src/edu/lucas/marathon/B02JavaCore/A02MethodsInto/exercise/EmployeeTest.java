@@ -2,7 +2,7 @@ package edu.lucas.marathon.B02JavaCore.A02MethodsInto.exercise;
 
 public class EmployeeTest {
     public static void main(String... args) {
-        Employee employeeOne = new Employee();
+        var employeeOne = new Employee();
 
         employeeOne.name = "Lucas";
         employeeOne.age = 24;
