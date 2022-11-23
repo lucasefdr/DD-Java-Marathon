@@ -1,9 +1,10 @@
-package edu.lucas.marathon.B02JavaCore.A03MethodsOverloading.domain;
+package edu.lucas.marathon.B02JavaCore.A04Constructors.domain;
 
 public class Movie {
     private String name;
     private String genre;
     private Integer length;
+    private String studio;
 
     /**
      * Construtor vazio
@@ -17,12 +18,24 @@ public class Movie {
      * @param name
      * @param genre
      * @param length
-     * @param exemplo_estudio
      */
     public Movie(String name, String genre, Integer length) {
         this.name = name;
         this.genre = genre;
         this.length = length;
+    }
+
+    /**
+     * Sobrecarga de construtores
+     *
+     * @param name
+     * @param genre
+     * @param length
+     * @param studio
+     */
+    public Movie(String name, String genre, Integer length, String studio) {
+        this(name, genre, length);
+        this.studio = studio;
     }
 
     public void init(String name, String genre) {
@@ -70,5 +83,13 @@ public class Movie {
 
     public void setGenre(String genre) {
         this.genre = genre;
+    }
+
+    public String getStudio() {
+        return studio;
+    }
+
+    public void setStudio(String studio) {
+        this.studio = studio;
     }
 }
