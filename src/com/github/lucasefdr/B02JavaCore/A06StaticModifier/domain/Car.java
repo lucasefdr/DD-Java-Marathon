@@ -3,7 +3,7 @@ package com.github.lucasefdr.B02JavaCore.A06StaticModifier.domain;
 public class Car {
     private String name;
     private Double maxSpeed;
-    public static Double limitSpeed = 250.0;
+    private static Double limitSpeed = 250.0;
 
     public Car(String name, Double maxSpeed) {
         this.name = name;
@@ -24,6 +24,14 @@ public class Car {
 
     public void setMaxSpeed(Double maxSpeed) {
         this.maxSpeed = maxSpeed;
+    }
+
+    public static Double getLimitSpeed() {
+        return limitSpeed;
+    }
+
+    public static void setLimitSpeed(Double limitSpeed) {
+        Car.limitSpeed = limitSpeed;
     }
 
     @Override
