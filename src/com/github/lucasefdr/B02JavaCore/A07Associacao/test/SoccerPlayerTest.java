@@ -4,6 +4,7 @@ import com.github.lucasefdr.B02JavaCore.A07Associacao.domain.SoccerPlayer;
 import com.github.lucasefdr.B02JavaCore.A07Associacao.domain.Team;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class SoccerPlayerTest {
@@ -21,6 +22,11 @@ public class SoccerPlayerTest {
 
         // lista de SoccerPlayers
         List<SoccerPlayer> soccerPlayers = List.of(soccerPlayer1, soccerPlayer2, soccerPlayer3);
-        soccerPlayers.forEach(System.out::println);
+        soccerPlayers.forEach(SoccerPlayer::print);
+
+        SoccerPlayer soccerPlayer4 = new SoccerPlayer("Neymar");
+        team.setSoccerPlayers(soccerPlayers);
+
+        team.print();
     }
 }

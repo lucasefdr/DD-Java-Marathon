@@ -12,6 +12,14 @@ public class SoccerPlayer {
         this.name = name;
     }
 
+    public void print() {
+        System.out.println("Player name: " + this.name);
+
+        if (team == null) return;
+
+        System.out.println("Team: " + this.team.getName());
+    }
+
     public String getName() {
         return name;
     }
@@ -26,11 +34,5 @@ public class SoccerPlayer {
 
     public void setTeam(Team team) {
         this.team = team;
-    }
-
-    @Override
-    public String toString() {
-        if (this.team == null) return "Soccer player name: " + this.name;
-        return "Soccer player name: " + this.name + ", Team: " + this.team;
     }
 }
